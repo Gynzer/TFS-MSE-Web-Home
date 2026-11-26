@@ -1,0 +1,136 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STL MSE File Resources</title>
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <link rel="stylesheet" href="assets/css/mse.css">
+  </head>
+<div style="background: url(assets/images/DNA-repair.jpg) repeat;background-attachment: fixed;">  
+<body>
+
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell mse_bgcolor_50">
+          <h1>STL MSE File Resources</h1>
+		  <p><a href="index.html"><image src="assets/images/home.png" alt="Home" width="25" height="25"/></a>
+        </div>
+      </div>
+
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell mse_bgcolor_50">
+          <div class="callout mse_bgcolor_70">
+			<h3>MSE File Resources</h3>
+			<p>There are several web based resources that the MSE use on a regular basis.  Most of these require separate authentication and authorization.   If you believe that you need access to one of these resources, please contact the <a href="mailto:usslo.mse.automation@thermofisher.com?subject=MSE Website contribution">MSE Automation Team.</a></p>
+			<p>Due to security concerns, you will not be able to click on links to forward yourself to these resources.   Instead, please copy and past the appropriate link either into your broswer or File Explorer.   Also included is a command line for connecting to a resource with a different userid and password than your own. </p> 
+          </div> 
+        </div>
+      </div>
+
+		<div class="grid-x grid-padding-x">
+			<div class="large-12 cell mse_bgcolor_50">
+				<div class="callout mse_bgcolor_70">
+					<h4>MSE Equipment Software</h4>
+					<div class="grid-x grid-padding-x">
+						<div class="cell large-3 medium-3 small-3">
+							<div class="mse-spacer" style="font-size:75%;"> 
+								<p>This shared resource includes software that is used by the MSE team in their installation, configuration and management of our manufacturing systems.  Access is required.</p>				    
+							</div>
+						</div>
+						<div class="cell large-9 medium-9 small-9">
+							<table>
+								<tr style="background-color: rgba(47,86,98,.7);">
+									<td><bold>File URL:</bold></td>
+									<td>file://usslo-mpn-NAS01.thermo.com/MSE-Equipment-SW</td>
+								</tr>
+								<tr style="background-color: rgba(47,86,98,.7);">
+									<td><bold>File UNC:</bold></td>
+									<td>\\usslo-mpn-NAS01.thermo.com\MSE-Equipment-SW</td>
+								</tr>
+								<tr style="background-color: rgba(47,86,98,.7);">
+									<td><bold>Mapped Drive:</bold></td>
+									<td>net use R: \\usslo-mpn-NAS01.thermo.com\MSE-Equipment-SW /user:amer\&lt;username&gt; * /persistent:yes</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="grid-x grid-padding-x">
+			<div class="large-12 cell mse_bgcolor_50">
+				<div class="callout mse_bgcolor_70">
+					<h4>Batch Record Staging</h4>
+					<div class="grid-x grid-padding-x">
+						<div class="cell large-3 medium-3 small-3">
+							<div class="mse-spacer" style="font-size:75%;"> 
+								<p>There is now an updated SOP which requires the use of an AWS gateway to store files locally and then be replicated into the cloud (AWS) when it comes to our Batch Management Records.   This is the parent resource where these files are stored.   Appropriate access is required for access to this share.</p>				    
+							</div>
+						</div>
+						<div class="cell large-9 medium-9 small-9">
+							<table>
+								<tr style="background-color: rgba(47,86,98,.7);">
+									<td><bold>File URL:</bold></td>
+									<td>file://usslo-awssgw-p1.thermo.com/batch-record</td>
+								</tr>
+								<tr style="background-color: rgba(47,86,98,.7);">
+									<td><bold>File UNC:</bold></td>
+									<td>\\usslo-awssgw-p1.thermo.com\batch-record</td>
+								</tr>
+								<tr style="background-color: rgba(47,86,98,.7);">
+									<td><bold>Mapped Drive:</bold></td>
+									<td>net use I: \\usslo-awssgw-p1.thermo.com\batch-record /user:amer\&lt;username&gt; * /persistent:yes</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="grid-x grid-padding-x">
+			<div class="large-12 cell mse_bgcolor_50">
+				<div class="callout mse_bgcolor_70">
+					<h4>STLMPN to MPN xfer resource</h4>
+					<div class="grid-x grid-padding-x">
+						<div class="cell large-3 medium-3 small-3">
+							<div class="mse-spacer" style="font-size:75%;"> 
+								<p>Due to limitations and security issues with the old MPN domain, we are unable to copy files directly to the MPN servers.   This resource can be written to and read from by our AMER and STLMPN devices.  Think of it as a jump server for exchanging files.  For access, please contact <a href="mailto:usslo.mse.automation@thermofisher.com?subject=MSE Website contribution">MSE Automation Team.</a></p>				    
+							</div>
+						</div>
+						<div class="cell large-9 medium-9 small-9">
+							<table>
+								<tr style="background-color: rgba(47,86,98,.7);">
+									<td><bold>File URL:</bold></td>
+									<td>file://10.175.129.22/xfers</td>
+								</tr>
+								<tr style="background-color: rgba(47,86,98,.7);">
+									<td><bold>File UNC:</bold></td>
+									<td>\\10.175.129.22\xfers</td>
+								</tr>
+								<tr style="background-color: rgba(47,86,98,.7);">
+									<td><bold>Mapped Drive:</bold></td>
+									<td>net use X: \\10.175.129.22\xfers /user:amer\&lt;username&gt; * /persistent:yes</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell mse_bgcolor_50" style="font-size:75%;text-align: center;">
+          <p>Copyright &copy; 2022 Thermo Fisher Scientific</p>
+        </div>
+      </div>
+    </div>
+<script src="assets/js/vendor.js"></script>
+<script src="assets/js/foundation.js"></script>
+</body>
+</div>
+</html>
